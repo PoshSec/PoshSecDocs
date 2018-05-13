@@ -11,14 +11,14 @@ Description
 
 This converts a user supplied Fully Qualified DOmain Name (FQDN) into a Distinguished Name (DN).
 
-PARAMETER
+Parameter
 ---------
 
 **Name:** domainFQDN
 
 **Description:** This is the Fully Qualified Domain Name (FQDN) that needs to be turned into a Distinguished Name (DN).
 
-EXAMPLE
+Example
 -------
 ::
 
@@ -28,7 +28,7 @@ EXAMPLE
     PS> Convert-FQDNtoDN 'dev.contoso.net'
     DC=dev,DC=contoso,DC=NET
 
-NOTES
+Notes
 -----
 
 This is a PoshSec Utility Function
