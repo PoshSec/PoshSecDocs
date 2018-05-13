@@ -15,6 +15,7 @@ Example
 -------
 
 ::
+
     PS> Confirm-IsAdministrator
     False
 
