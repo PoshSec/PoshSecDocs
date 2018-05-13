@@ -11,7 +11,7 @@ Description
 
 Obtains the list of Enterprise admins for the current or specified domain.
 
-PARAMETER
+Parameter
 ---------
 
 **Name:** Domain

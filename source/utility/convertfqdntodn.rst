@@ -1,5 +1,5 @@
 Convert-SecFQDNtoDN
-================
+===================
 
 Synopsis
 ---------

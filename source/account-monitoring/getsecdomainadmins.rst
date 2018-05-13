@@ -1,5 +1,5 @@
 Get-SecDomainAdmins
-================
+===================
 
 Synopsis
 --------
@@ -11,7 +11,7 @@ Description
 
 Obtains the list of domain admins for the current or specified domain.
 
-PARAMETER
+Parameter
 ---------
 
 **Name:** Domain
