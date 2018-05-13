@@ -13,11 +13,10 @@ Obtains the list of domain admins for the current or specified domain.
 
 Examples
 --------
-
+..code::
 PS> Get-DomainAdmins
-
 SamAccountName      DisplayName
-`--------------     `-----------
+--------------     -----------
 Administrator       
 mjadmin             Matt Johnson - Admin
 

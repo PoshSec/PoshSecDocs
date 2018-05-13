@@ -7,7 +7,8 @@ This is the current list of available commands in PoshSec.
    :maxdepth: 1
    :caption: Account Monitoring:
 
-   account-monitoring/getdomainadmins
+   account-monitoring/getsecdomainadmins
+   account-monitoring/getsecenterpriseadmins
 
 .. toctree::
    :maxdepth: 1
