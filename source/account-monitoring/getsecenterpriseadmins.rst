@@ -11,6 +11,13 @@ Description
 
 Obtains the list of Enterprise admins for the current or specified domain.
 
+PARAMETER
+---------
+
+**Name:** Domain
+
+**Description:** This is the Active Directory name to pull the Enterprise Admins list from.
+
 Examples
 --------
 
@@ -20,6 +27,11 @@ Examples
     SamAccountName      DisplayName
     --------------      -----------
     Administrator
+
+    PS> Get-SecEnterpriseAdmins -Domain 'poshsec.com'
+    SamAccountName      DisplayName
+    --------------     -----------
+    Administrator  
 
 Notes
 -----

@@ -11,15 +11,27 @@ Description
 
 Obtains the list of domain admins for the current or specified domain.
 
+PARAMETER
+---------
+
+**Name:** Domain
+
+**Description:** This is the Active Directory name to pull the Domain Admins list from.
+
 Examples
 --------
 ::
 
-    PS> Get-DomainAdmins
+    PS> Get-SecDomainAdmins
     SamAccountName      DisplayName
     --------------     -----------
     Administrator       
     mjadmin             Matt Johnson - Admin
+
+    PS> Get-SecDomainAdmins -Domain 'poshsec.com'
+    SamAccountName      DisplayName
+    --------------     -----------
+    Administrator      
 
 Notes
 -----
