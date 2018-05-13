@@ -13,7 +13,7 @@ Obtains the list of domain admins for the current or specified domain.
 
 Examples
 --------
-..code-block:: PowerShell
+..code-block::
 
 PS> Get-DomainAdmins
 SamAccountName      DisplayName
