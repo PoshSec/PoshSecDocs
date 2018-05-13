@@ -16,3 +16,4 @@ This is the current list of available commands in PoshSec.
 
    utility/convertfqdntodn
    utility/confirmisadministrator
+   utility/confirmwindows8plus
