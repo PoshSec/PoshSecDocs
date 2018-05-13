@@ -15,3 +15,4 @@ This is the current list of available commands in PoshSec.
    :caption: Utility
 
    utility/convertfqdntodn
+   utility/confirmsecisadministrator
