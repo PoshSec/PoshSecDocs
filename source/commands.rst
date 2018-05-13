@@ -7,12 +7,12 @@ This is the current list of available commands in PoshSec.
    :maxdepth: 1
    :caption: Account Monitoring:
 
-   account-monitoring/getsecdomainadmins
-   account-monitoring/getsecenterpriseadmins
+   account-monitoring/getdomainadmins
+   account-monitoring/getenterpriseadmins
 
 .. toctree::
    :maxdepth: 1
    :caption: Utility
 
    utility/convertfqdntodn
-   utility/confirmsecisadministrator
+   utility/confirmisadministrator

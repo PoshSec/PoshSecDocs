@@ -1,5 +1,5 @@
-Get-SecDomainAdmins
-===================
+Get-DomainAdmins
+================
 
 Synopsis
 --------

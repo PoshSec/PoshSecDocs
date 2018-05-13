@@ -1,5 +1,5 @@
-Get-SecEnterpriseAdmins
-=======================
+Get-EnterpriseAdmins
+====================
 
 Synopsis
 --------

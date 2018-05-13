@@ -1,5 +1,5 @@
-Confirm-SecIsAdministrator
-==========================
+Confirm-IsAdministrator
+=======================
 
 Sysnopsis
 ---------
