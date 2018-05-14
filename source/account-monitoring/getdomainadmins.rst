@@ -22,13 +22,13 @@ Examples
 --------
 ::
 
-    PS> Get-SecDomainAdmins
+    PS> Get-DomainAdmins
     SamAccountName      DisplayName
     --------------     -----------
     Administrator       
     mjadmin             Matt Johnson - Admin
 
-    PS> Get-SecDomainAdmins -Domain 'poshsec.com'
+    PS> Get-DomainAdmins -Domain 'poshsec.com'
     SamAccountName      DisplayName
     --------------     -----------
     Administrator      

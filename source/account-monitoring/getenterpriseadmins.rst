@@ -23,12 +23,12 @@ Examples
 
 ::
 
-    PS> Get-SecEnterpriseAdmins
+    PS> Get-EnterpriseAdmins
     SamAccountName      DisplayName
     --------------      -----------
     Administrator
 
-    PS> Get-SecEnterpriseAdmins -Domain 'poshsec.com'
+    PS> Get-EnterpriseAdmins -Domain 'poshsec.com'
     SamAccountName      DisplayName
     --------------     -----------
     Administrator  
