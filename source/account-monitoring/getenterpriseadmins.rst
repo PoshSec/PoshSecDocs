@@ -24,14 +24,16 @@ Examples
 ::
 
     PS> Get-EnterpriseAdmins
-    SamAccountName      DisplayName
-    --------------      -----------
-    Administrator
+            DisplayName     SamAccountName      DistinguishedName
+            ----------      -------------       -----------------'
+            TestAccount     TestAccount         cn=TestAccount,OU=PoshSec,DC=PoshSec,DC=Com
+            Bob Uncle       Bob.Uncle           cn=Bob Uncle,OU=PoshSec,DC=PoshSec,DC=Com
 
-    PS> Get-EnterpriseAdmins -Domain 'poshsec.com'
-    SamAccountName      DisplayName
-    --------------     -----------
-    Administrator  
+    PS> Get-EnterpriseAdmins
+            DisplayName     SamAccountName      DistinguishedName
+            ----------      -------------       -----------------'
+            TestAccount     TestAccount         cn=TestAccount,OU=PoshSec,DC=PoshSec,DC=Com
+            Bob Uncle       Bob.Uncle           cn=Bob Uncle,OU=PoshSec,DC=PoshSec,DC=Com
 
 Notes
 -----

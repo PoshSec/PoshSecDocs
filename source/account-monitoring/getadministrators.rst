@@ -1,4 +1,4 @@
-Get-DomainAdmins
+Get-Administrators
 ================
 
 Synopsis
@@ -22,17 +22,17 @@ Examples
 --------
 ::
 
-    PS> Get-DomainAdmins
+    PS> Get-Administrators
             DisplayName     SamAccountName      DistinguishedName
             ----------      -------------       -----------------'
             TestAccount     TestAccount         cn=TestAccount,OU=PoshSec,DC=PoshSec,DC=Com
             Bob Uncle       Bob.Uncle           cn=Bob Uncle,OU=PoshSec,DC=PoshSec,DC=Com
 
-    PS> Get-DomainAdmins -Domain 'poshsec.com'
+    PS> Get-Administrators -Domain 'poshsec.com'
             DisplayName     SamAccountName      DistinguishedName
             ----------      -------------       -----------------'
             TestAccount     TestAccount         cn=TestAccount,OU=PoshSec,DC=PoshSec,DC=Com
-            Bob Uncle       Bob.Uncle           cn=Bob Uncle,OU=PoshSec,DC=PoshSec,DC=Com
+            Bob Uncle       Bob.Uncle           cn=Bob Uncle,OU=PoshSec,DC=PoshSec,DC=Com    
 
 Notes
 -----
