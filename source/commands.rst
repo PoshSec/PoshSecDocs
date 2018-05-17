@@ -10,6 +10,7 @@ This is the current list of available commands in PoshSec.
    account-monitoring/getdomainadmins
    account-monitoring/getenterpriseadmins
    account-monitoring/getaccountsthatdontexpire
+   account-monitoring/getaccountsthatexpire
 
 .. toctree::
    :maxdepth: 1
